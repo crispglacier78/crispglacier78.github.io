@@ -1,0 +1,1385 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>91情深叉喔vlog合集 - 真实生活影像社区 | 品牌视频官网</title>
+  <meta name="description" content="91情深叉喔vlog合集官方网站，专注于真实生活影像与情感记录的视频社区。在这里发现感人故事、日常瞬间，连接创作者与观众，共同构建温暖内容生态。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23d84f4f'/%3E%3Ccircle cx='16' cy='16' r='10' fill='%23fff' opacity='0.9'/%3E%3Cpolygon points='14,11 14,21 22,16' fill='%23d84f4f'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --qs-primary: #b84a4a;
+      --qs-primary-light: #d97c7c;
+      --qs-primary-dark: #8a3434;
+      --qs-accent: #e8b86d;
+      --qs-bg: #faf6f2;
+      --qs-bg-warm: #f3ede6;
+      --qs-text: #2e2624;
+      --qs-text-light: #5f5550;
+      --qs-text-muted: #8a7e76;
+      --qs-card: #ffffff;
+      --qs-border: #ede4dc;
+      --qs-shadow: 0 4px 20px rgba(46, 38, 36, 0.07);
+      --qs-shadow-hover: 0 12px 32px rgba(46, 38, 36, 0.12);
+      --qs-radius: 16px;
+      --qs-radius-sm: 10px;
+      --qs-announce-h: 44px;
+      --qs-header-h: 68px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--qs-announce-h) + var(--qs-header-h) + 16px); }
+    body {
+      font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+      background: var(--qs-bg);
+      color: var(--qs-text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; font-size: inherit; }
+    .qs-container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+    .qs-section { padding: 56px 0; }
+    .qs-section-title { font-size: 1.65rem; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
+    .qs-section-sub { color: var(--qs-text-muted); font-size: 0.95rem; margin-bottom: 32px; }
+    .qs-btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+      padding: 10px 22px; border-radius: 999px; font-size: 0.92rem; font-weight: 600;
+      transition: all 0.25s ease; white-space: nowrap;
+    }
+    .qs-btn-primary { background: var(--qs-primary); color: #fff; box-shadow: 0 4px 14px rgba(184,74,74,0.3); }
+    .qs-btn-primary:hover { background: var(--qs-primary-dark); transform: translateY(-1px); }
+    .qs-btn-outline { border: 1.5px solid var(--qs-border); color: var(--qs-text-light); background: var(--qs-card); }
+    .qs-btn-outline:hover { border-color: var(--qs-primary-light); color: var(--qs-primary); }
+    .qs-btn-ghost { color: var(--qs-text-light); }
+    .qs-btn-ghost:hover { color: var(--qs-primary); }
+    .qs-badge {
+      display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.72rem;
+      font-weight: 600; background: var(--qs-bg-warm); color: var(--qs-text-light);
+    }
+
+    /* ===== 吸顶公告 + 页头 ===== */
+    .qs-sticky-top {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: var(--qs-bg); box-shadow: 0 2px 16px rgba(46,38,36,0.06);
+    }
+    .qs-announce-bar {
+      height: var(--qs-announce-h); background: var(--qs-primary-dark); color: #f7efe8;
+      display: flex; align-items: center; font-size: 0.84rem; overflow: hidden;
+    }
+    .qs-announce-bar .qs-container { display: flex; align-items: center; gap: 14px; width: 100%; overflow: hidden; }
+    .qs-announce-label {
+      flex-shrink: 0; background: var(--qs-accent); color: var(--qs-primary-dark);
+      font-weight: 700; padding: 2px 12px; border-radius: 999px; font-size: 0.76rem;
+    }
+    .qs-announce-track { flex: 1; overflow: hidden; position: relative; height: 100%; }
+    .qs-announce-list { display: flex; flex-direction: column; transition: transform 0.6s cubic-bezier(0.4,0,0.2,1); }
+    .qs-announce-list li { height: var(--qs-announce-h); line-height: var(--qs-announce-h); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .qs-announce-list li span { opacity: 0.7; margin-right: 8px; font-size: 0.76rem; }
+
+    .qs-header { height: var(--qs-header-h); background: var(--qs-bg); }
+    .qs-header-inner { display: flex; align-items: center; justify-content: space-between; height: var(--qs-header-h); gap: 24px; }
+    .qs-logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.25rem; letter-spacing: 0.5px; color: var(--qs-primary-dark); flex-shrink: 0; }
+    .qs-logo-mark {
+      width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, var(--qs-primary), var(--qs-accent));
+      display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.85rem; font-weight: 800;
+    }
+    .qs-logo span small { display: block; font-size: 0.62rem; font-weight: 400; color: var(--qs-text-muted); letter-spacing: 1px; }
+    .qs-nav { display: flex; align-items: center; gap: 4px; }
+    .qs-nav a {
+      padding: 8px 14px; border-radius: 8px; font-size: 0.92rem; font-weight: 500;
+      color: var(--qs-text-light); transition: all 0.2s;
+    }
+    .qs-nav a:hover { color: var(--qs-primary); background: var(--qs-bg-warm); }
+    .qs-header-actions { display: flex; align-items: center; gap: 12px; }
+    .qs-search { position: relative; }
+    .qs-search input {
+      width: 190px; padding: 8px 16px 8px 36px; border-radius: 999px; border: 1.5px solid var(--qs-border);
+      background: var(--qs-card); font-size: 0.86rem; color: var(--qs-text); outline: none; transition: all 0.25s;
+    }
+    .qs-search input:focus { border-color: var(--qs-primary-light); width: 230px; box-shadow: 0 0 0 3px rgba(184,74,74,0.1); }
+    .qs-search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; opacity: 0.45; pointer-events: none; }
+    .qs-search-hint {
+      position: absolute; top: calc(100% + 8px); left: 0; right: 0; background: var(--qs-card);
+      border-radius: var(--qs-radius-sm); box-shadow: var(--qs-shadow-hover); padding: 12px 16px;
+      font-size: 0.84rem; color: var(--qs-text-muted); display: none; z-index: 10; border: 1px solid var(--qs-border);
+    }
+    .qs-search-hint.is-visible { display: block; }
+    .qs-search-hint strong { color: var(--qs-primary); }
+    .qs-mobile-toggle { display: none; width: 40px; height: 40px; border-radius: 10px; background: var(--qs-card); border: 1.5px solid var(--qs-border); flex-direction: column; align-items: center; justify-content: center; gap: 4px; }
+    .qs-mobile-toggle span { display: block; width: 18px; height: 2px; background: var(--qs-text-light); border-radius: 2px; transition: 0.25s; }
+
+    /* ===== 首屏 ===== */
+    .qs-hero { padding-top: calc(var(--qs-announce-h) + var(--qs-header-h) + 40px); padding-bottom: 56px; }
+    .qs-hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: center; }
+    .qs-hero-kicker { display: inline-flex; align-items: center; gap: 8px; background: var(--qs-bg-warm); color: var(--qs-primary-dark); padding: 6px 16px; border-radius: 999px; font-size: 0.82rem; font-weight: 600; margin-bottom: 20px; }
+    .qs-hero-kicker::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--qs-primary); animation: qsPulse 1.8s infinite; }
+    @keyframes qsPulse { 0%,100%{opacity:1;} 50%{opacity:0.35;} }
+    .qs-hero h1 { font-size: 2.9rem; line-height: 1.2; margin-bottom: 18px; letter-spacing: -0.5px; }
+    .qs-hero h1 em { font-style: normal; color: var(--qs-primary); position: relative; }
+    .qs-hero h1 em::after { content: ''; position: absolute; left: 0; right: 0; bottom: 4px; height: 10px; background: var(--qs-accent); opacity: 0.35; border-radius: 4px; z-index: -1; }
+    .qs-hero-intro { color: var(--qs-text-light); font-size: 0.98rem; margin-bottom: 28px; max-width: 560px; }
+    .qs-hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 36px; }
+    .qs-hero-stats { display: flex; gap: 36px; flex-wrap: wrap; }
+    .qs-stat-num { font-size: 1.6rem; font-weight: 800; color: var(--qs-primary-dark); line-height: 1.2; }
+    .qs-stat-label { font-size: 0.8rem; color: var(--qs-text-muted); }
+    .qs-hero-visual { position: relative; }
+    .qs-hero-main-img { width: 100%; aspect-ratio: 5/4; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 50px rgba(184,74,74,0.18); position: relative; }
+    .qs-hero-main-img svg { width: 100%; height: 100%; display: block; }
+    .qs-hero-main-img .qs-video-tag {
+      position: absolute; left: 16px; top: 16px; background: rgba(0,0,0,0.55); color: #fff;
+      padding: 4px 12px; border-radius: 999px; font-size: 0.75rem; display: flex; align-items: center; gap: 6px; backdrop-filter: blur(4px);
+    }
+    .qs-hero-float-card {
+      position: absolute; right: -14px; bottom: -18px; background: var(--qs-card); border-radius: var(--qs-radius-sm);
+      padding: 14px 18px; box-shadow: var(--qs-shadow-hover); display: flex; align-items: center; gap: 12px; border: 1px solid var(--qs-border);
+    }
+    .qs-hero-float-card .qs-avatar { width: 40px; height: 40px; }
+    .qs-hero-float-card p { font-size: 0.82rem; line-height: 1.4; }
+    .qs-hero-float-card p strong { display: block; color: var(--qs-text); }
+    .qs-hero-float-card p span { color: var(--qs-text-muted); font-size: 0.74rem; }
+
+    /* 关键词介绍 */
+    .qs-intro-block { margin-top: 56px; background: var(--qs-card); border-radius: var(--qs-radius); padding: 40px 44px; box-shadow: var(--qs-shadow); border: 1px solid var(--qs-border); }
+    .qs-intro-block h2 { font-size: 1.4rem; margin-bottom: 18px; color: var(--qs-primary-dark); }
+    .qs-intro-block p { color: var(--qs-text-light); font-size: 0.94rem; margin-bottom: 14px; text-align: justify; }
+    .qs-intro-block p:last-child { margin-bottom: 0; }
+
+    /* ===== 视频卡片通用 ===== */
+    .qs-video-card {
+      background: var(--qs-card); border-radius: var(--qs-radius); overflow: hidden;
+      box-shadow: var(--qs-shadow); border: 1px solid var(--qs-border);
+      transition: transform 0.3s ease, box-shadow 0.3s ease; display: flex; flex-direction: column;
+    }
+    .qs-video-card:hover { transform: translateY(-4px); box-shadow: var(--qs-shadow-hover); }
+    .qs-video-thumb { position: relative; aspect-ratio: 16/9; overflow: hidden; background: var(--qs-bg-warm); }
+    .qs-video-thumb svg { width: 100%; height: 100%; display: block; transition: transform 0.4s ease; }
+    .qs-video-card:hover .qs-video-thumb svg { transform: scale(1.05); }
+    .qs-play-icon {
+      position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+      width: 48px; height: 48px; border-radius: 50%; background: rgba(255,255,255,0.92);
+      display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+      transition: transform 0.25s ease;
+    }
+    .qs-play-icon::after { content: ''; border-style: solid; border-width: 8px 0 8px 13px; border-color: transparent transparent transparent var(--qs-primary); margin-left: 3px; }
+    .qs-video-card:hover .qs-play-icon { transform: translate(-50%,-50%) scale(1.1); }
+    .qs-thumb-tag { position: absolute; left: 10px; top: 10px; background: rgba(0,0,0,0.55); color: #fff; padding: 3px 10px; border-radius: 999px; font-size: 0.7rem; backdrop-filter: blur(4px); }
+    .qs-video-info { padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    .qs-video-title { font-size: 1rem; font-weight: 700; line-height: 1.45; color: var(--qs-text); }
+    .qs-video-desc { font-size: 0.82rem; color: var(--qs-text-muted); line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .qs-video-meta { display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 8px; border-top: 1px dashed var(--qs-border); gap: 8px; }
+    .qs-author-mini { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; color: var(--qs-text-light); min-width: 0; }
+    .qs-avatar { width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 700; color: #fff; flex-shrink: 0; }
+    .qs-video-stats { display: flex; align-items: center; gap: 10px; font-size: 0.76rem; color: var(--qs-text-muted); flex-shrink: 0; }
+    .qs-action-btn { background: none; border: none; padding: 4px; border-radius: 6px; display: flex; align-items: center; gap: 4px; color: var(--qs-text-muted); font-size: 0.76rem; transition: all 0.2s; cursor: pointer; }
+    .qs-action-btn:hover { background: var(--qs-bg-warm); color: var(--qs-primary); }
+    .qs-action-btn.is-liked { color: var(--qs-primary); }
+    .qs-action-btn svg { width: 15px; height: 15px; }
+
+    /* ===== 焦点视频区 ===== */
+    .qs-focus-grid { display: grid; grid-template-columns: 1.35fr 1fr; gap: 24px; }
+    .qs-focus-main .qs-video-thumb { aspect-ratio: 16/9.5; }
+    .qs-focus-main .qs-video-title { font-size: 1.3rem; }
+    .qs-focus-side { display: grid; grid-template-rows: 1fr 1fr; gap: 20px; }
+    .qs-focus-side .qs-video-card { flex-direction: row; }
+    .qs-focus-side .qs-video-thumb { width: 44%; aspect-ratio: 16/10; flex-shrink: 0; }
+    .qs-focus-side .qs-video-info { padding: 12px 14px; }
+    .qs-focus-side .qs-video-title { font-size: 0.9rem; }
+
+    /* ===== 热门视频流 ===== */
+    .qs-video-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+
+    /* ===== 专题 ===== */
+    .qs-topic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .qs-topic-card {
+      border-radius: var(--qs-radius); overflow: hidden; position: relative; min-height: 220px;
+      display: flex; flex-direction: column; justify-content: flex-end; padding: 26px 24px; color: #fff;
+      box-shadow: var(--qs-shadow); transition: transform 0.3s;
+    }
+    .qs-topic-card:hover { transform: translateY(-4px); }
+    .qs-topic-card svg { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
+    .qs-topic-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 30%, rgba(0,0,0,0.6) 100%); z-index: 1; }
+    .qs-topic-card > * { position: relative; z-index: 2; }
+    .qs-topic-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; }
+    .qs-topic-desc { font-size: 0.8rem; opacity: 0.85; margin-bottom: 12px; }
+    .qs-topic-status { display: inline-flex; align-items: center; gap: 6px; font-size: 0.74rem; background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 999px; align-self: flex-start; backdrop-filter: blur(4px); }
+
+    /* ===== 创作者矩阵 ===== */
+    .qs-creator-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .qs-creator-card {
+      background: var(--qs-card); border-radius: var(--qs-radius); padding: 24px 20px; text-align: center;
+      box-shadow: var(--qs-shadow); border: 1px solid var(--qs-border); transition: transform 0.25s;
+    }
+    .qs-creator-card:hover { transform: translateY(-3px); }
+    .qs-creator-avatar {
+      width: 64px; height: 64px; border-radius: 50%; margin: 0 auto 14px;
+      display: flex; align-items: center; justify-content: center; font-size: 1.4rem; font-weight: 800; color: #fff;
+      box-shadow: 0 6px 18px rgba(184,74,74,0.18);
+    }
+    .qs-creator-name { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+    .qs-creator-field { font-size: 0.76rem; color: var(--qs-primary); background: rgba(184,74,74,0.08); display: inline-block; padding: 2px 12px; border-radius: 999px; margin-bottom: 10px; }
+    .qs-creator-bio { font-size: 0.8rem; color: var(--qs-text-muted); line-height: 1.55; margin-bottom: 12px; }
+    .qs-creator-stats { display: flex; justify-content: center; gap: 18px; font-size: 0.76rem; color: var(--qs-text-muted); padding-top: 12px; border-top: 1px dashed var(--qs-border); }
+    .qs-creator-stats strong { color: var(--qs-text-light); display: block; font-size: 0.9rem; }
+
+    /* ===== 用户评价 ===== */
+    .qs-review-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .qs-review-card {
+      background: var(--qs-card); border-radius: var(--qs-radius); padding: 22px 24px;
+      box-shadow: var(--qs-shadow); border: 1px solid var(--qs-border); position: relative;
+    }
+    .qs-review-card::before { content: '\201C'; position: absolute; right: 20px; top: 6px; font-size: 3rem; color: var(--qs-primary-light); opacity: 0.25; font-family: Georgia, serif; line-height: 1; }
+    .qs-review-text { font-size: 0.88rem; color: var(--qs-text-light); margin-bottom: 16px; line-height: 1.7; }
+    .qs-review-author { display: flex; align-items: center; gap: 10px; }
+    .qs-review-author .qs-avatar { width: 32px; height: 32px; }
+    .qs-review-author strong { font-size: 0.84rem; display: block; }
+    .qs-review-author span { font-size: 0.72rem; color: var(--qs-text-muted); }
+
+    /* ===== 故事区 ===== */
+    .qs-story-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .qs-story-card {
+      background: var(--qs-card); border-radius: var(--qs-radius); overflow: hidden; display: flex;
+      box-shadow: var(--qs-shadow); border: 1px solid var(--qs-border);
+    }
+    .qs-story-img { width: 38%; flex-shrink: 0; }
+    .qs-story-img svg { width: 100%; height: 100%; display: block; }
+    .qs-story-body { padding: 22px 22px; flex: 1; display: flex; flex-direction: column; }
+    .qs-story-body h3 { font-size: 1rem; margin-bottom: 8px; }
+    .qs-story-body p { font-size: 0.82rem; color: var(--qs-text-muted); line-height: 1.6; margin-bottom: 12px; flex: 1; }
+    .qs-story-meta { font-size: 0.74rem; color: var(--qs-text-muted); display: flex; gap: 14px; }
+
+    /* ===== 数据榜单 ===== */
+    .qs-rank-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 40px; background: var(--qs-card); border-radius: var(--qs-radius); padding: 28px 32px; box-shadow: var(--qs-shadow); border: 1px solid var(--qs-border); }
+    .qs-rank-item { display: flex; align-items: center; gap: 14px; padding: 10px 0; border-bottom: 1px dashed var(--qs-border); }
+    .qs-rank-item:last-child { border-bottom: none; }
+    .qs-rank-num { font-size: 1.1rem; font-weight: 800; width: 28px; text-align: center; color: var(--qs-text-muted); flex-shrink: 0; }
+    .qs-rank-item:nth-child(-n+3) .qs-rank-num { color: var(--qs-primary); }
+    .qs-rank-title { font-size: 0.88rem; font-weight: 600; flex: 1; }
+    .qs-rank-heat { font-size: 0.78rem; color: var(--qs-text-muted); flex-shrink: 0; }
+
+    /* ===== 更新日志 ===== */
+    .qs-updates { display: flex; flex-direction: column; gap: 18px; }
+    .qs-update-row { display: flex; gap: 20px; align-items: flex-start; background: var(--qs-card); border-radius: var(--qs-radius); padding: 20px 24px; box-shadow: var(--qs-shadow); border: 1px solid var(--qs-border); }
+    .qs-update-date { flex-shrink: 0; text-align: center; background: var(--qs-bg-warm); border-radius: var(--qs-radius-sm); padding: 8px 14px; min-width: 70px; }
+    .qs-update-date strong { display: block; font-size: 1.2rem; color: var(--qs-primary-dark); line-height: 1.2; }
+    .qs-update-date span { font-size: 0.7rem; color: var(--qs-text-muted); }
+    .qs-update-body h3 { font-size: 0.95rem; margin-bottom: 4px; }
+    .qs-update-body p { font-size: 0.82rem; color: var(--qs-text-muted); }
+
+    /* ===== FAQ ===== */
+    .qs-faq-wrap { max-width: 820px; margin: 0 auto; }
+    .qs-faq-item { background: var(--qs-card); border-radius: var(--qs-radius-sm); margin-bottom: 12px; border: 1px solid var(--qs-border); overflow: hidden; }
+    .qs-faq-item summary {
+      list-style: none; padding: 16px 22px; font-weight: 600; font-size: 0.92rem; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px; transition: color 0.2s;
+    }
+    .qs-faq-item summary::-webkit-details-marker { display: none; }
+    .qs-faq-item summary::after { content: '+'; font-size: 1.2rem; color: var(--qs-primary); transition: transform 0.25s; flex-shrink: 0; }
+    .qs-faq-item[open] summary::after { transform: rotate(45deg); }
+    .qs-faq-item summary:hover { color: var(--qs-primary); }
+    .qs-faq-item p { padding: 0 22px 18px; font-size: 0.85rem; color: var(--qs-text-muted); line-height: 1.7; }
+
+    /* ===== 联系 / 投稿 ===== */
+    .qs-contact-band { background: linear-gradient(135deg, var(--qs-primary-dark), var(--qs-primary)); border-radius: 24px; padding: 44px 48px; color: #fff; display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: center; box-shadow: 0 16px 40px rgba(138,52,52,0.25); }
+    .qs-contact-band h2 { font-size: 1.6rem; margin-bottom: 10px; }
+    .qs-contact-band p { font-size: 0.9rem; opacity: 0.85; line-height: 1.7; }
+    .qs-contact-actions { display: flex; flex-direction: column; gap: 12px; }
+    .qs-contact-actions .qs-btn-light { background: #fff; color: var(--qs-primary-dark); font-weight: 700; padding: 12px 24px; border-radius: 999px; text-align: center; transition: all 0.25s; }
+    .qs-contact-actions .qs-btn-light:hover { background: var(--qs-accent); }
+    .qs-contact-actions .qs-btn-line { border: 1.5px solid rgba(255,255,255,0.5); color: #fff; padding: 12px 24px; border-radius: 999px; text-align: center; transition: all 0.25s; background: transparent; }
+    .qs-contact-actions .qs-btn-line:hover { background: rgba(255,255,255,0.12); }
+
+    /* ===== 页脚 ===== */
+    .qs-footer { background: #2b2320; color: #cfc4bb; padding: 56px 0 28px; margin-top: 24px; }
+    .qs-footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+    .qs-footer-brand .qs-logo { color: #f3e9e0; margin-bottom: 16px; }
+    .qs-footer-brand p { font-size: 0.82rem; line-height: 1.8; color: #a89a90; max-width: 320px; }
+    .qs-footer h4 { color: #f3e9e0; font-size: 0.92rem; margin-bottom: 16px; }
+    .qs-footer ul li { margin-bottom: 10px; }
+    .qs-footer ul a { font-size: 0.82rem; color: #a89a90; transition: color 0.2s; }
+    .qs-footer ul a:hover { color: var(--qs-accent); }
+    .qs-footer-bottom { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 22px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 0.76rem; color: #8a7e76; }
+
+    /* ===== 交互辅助 ===== */
+    .qs-toast {
+      position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%) translateY(20px);
+      background: var(--qs-text); color: #fff; padding: 12px 26px; border-radius: 999px;
+      font-size: 0.86rem; opacity: 0; pointer-events: none; transition: all 0.35s; z-index: 3000;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25); white-space: nowrap;
+    }
+    .qs-toast.is-show { opacity: 1; transform: translateX(-50%) translateY(0); }
+    .qs-backtop {
+      position: fixed; right: 28px; bottom: 28px; width: 46px; height: 46px; border-radius: 50%;
+      background: var(--qs-primary); color: #fff; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 6px 20px rgba(184,74,74,0.4); opacity: 0; pointer-events: none; transition: all 0.3s;
+      z-index: 900; font-size: 1.1rem;
+    }
+    .qs-backtop.is-show { opacity: 1; pointer-events: auto; }
+    .qs-backtop:hover { background: var(--qs-primary-dark); transform: translateY(-3px); }
+    .qs-modal-mask {
+      position: fixed; inset: 0; background: rgba(30,22,20,0.55); z-index: 2500;
+      display: none; align-items: center; justify-content: center; padding: 24px; backdrop-filter: blur(3px);
+    }
+    .qs-modal-mask.is-open { display: flex; }
+    .qs-modal {
+      background: var(--qs-card); border-radius: 20px; max-width: 480px; width: 100%;
+      padding: 32px 32px 28px; position: relative; box-shadow: 0 24px 60px rgba(0,0,0,0.3);
+      animation: qsModalIn 0.3s ease;
+    }
+    @keyframes qsModalIn { from { opacity: 0; transform: translateY(16px) scale(0.97); } to { opacity: 1; transform: none; } }
+    .qs-modal h3 { font-size: 1.2rem; margin-bottom: 8px; color: var(--qs-primary-dark); }
+    .qs-modal p { font-size: 0.88rem; color: var(--qs-text-muted); margin-bottom: 20px; }
+    .qs-modal-close { position: absolute; right: 16px; top: 14px; width: 34px; height: 34px; border-radius: 50%; background: var(--qs-bg-warm); display: flex; align-items: center; justify-content: center; font-size: 1rem; color: var(--qs-text-light); transition: 0.2s; }
+    .qs-modal-close:hover { background: var(--qs-primary); color: #fff; }
+    .qs-modal-form { display: flex; flex-direction: column; gap: 12px; }
+    .qs-modal-form input, .qs-modal-form textarea {
+      width: 100%; padding: 11px 14px; border-radius: var(--qs-radius-sm); border: 1.5px solid var(--qs-border);
+      font-family: inherit; font-size: 0.88rem; outline: none; transition: border 0.2s;
+    }
+    .qs-modal-form input:focus, .qs-modal-form textarea:focus { border-color: var(--qs-primary-light); }
+    .qs-modal-form textarea { min-height: 90px; resize: vertical; }
+    .qs-share-row { display: flex; gap: 12px; flex-wrap: wrap; }
+    .qs-share-btn { flex: 1; min-width: 100px; padding: 12px 10px; border-radius: var(--qs-radius-sm); background: var(--qs-bg-warm); font-size: 0.84rem; font-weight: 600; color: var(--qs-text-light); transition: all 0.2s; text-align: center; }
+    .qs-share-btn:hover { background: var(--qs-primary); color: #fff; }
+
+    /* ===== 响应式 ===== */
+    @media (max-width: 1024px) {
+      .qs-hero-grid { grid-template-columns: 1fr; gap: 36px; }
+      .qs-hero h1 { font-size: 2.3rem; }
+      .qs-creator-grid { grid-template-columns: repeat(2, 1fr); }
+      .qs-footer-grid { grid-template-columns: 1fr 1fr; }
+      .qs-focus-grid { grid-template-columns: 1fr; }
+      .qs-focus-side { grid-template-rows: none; grid-template-columns: 1fr 1fr; }
+      .qs-contact-band { grid-template-columns: 1fr; }
+      .qs-topic-grid { grid-template-columns: 1fr 1fr; }
+      .qs-nav { display: none; }
+      .qs-nav.is-open {
+        display: flex; flex-direction: column; position: absolute; left: 24px; right: 24px;
+        top: calc(var(--qs-announce-h) + var(--qs-header-h)); background: var(--qs-card);
+        padding: 12px; border-radius: var(--qs-radius); box-shadow: var(--qs-shadow-hover);
+        border: 1px solid var(--qs-border); align-items: stretch; z-index: 999;
+      }
+      .qs-mobile-toggle { display: flex; }
+    }
+    @media (max-width: 768px) {
+      .qs-container { padding: 0 18px; }
+      .qs-hero h1 { font-size: 1.9rem; }
+      .qs-video-grid-3, .qs-topic-grid { grid-template-columns: 1fr; }
+      .qs-focus-side { grid-template-columns: 1fr; grid-template-rows: none; }
+      .qs-review-grid, .qs-story-grid { grid-template-columns: 1fr; }
+      .qs-rank-list { grid-template-columns: 1fr; }
+      .qs-footer-grid { grid-template-columns: 1fr; gap: 28px; }
+      .qs-intro-block { padding: 28px 22px; }
+      .qs-contact-band { padding: 32px 26px; }
+      .qs-search input { width: 130px; }
+      .qs-search input:focus { width: 160px; }
+      .qs-hero-stats { gap: 24px; }
+      .qs-hero-float-card { right: 8px; }
+      .qs-story-card { flex-direction: column; }
+      .qs-story-img { width: 100%; aspect-ratio: 16/7; }
+    }
+  </style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告 + 页头 -->
+<div class="qs-sticky-top">
+  <div class="qs-announce-bar" id="qsAnnounce">
+    <div class="qs-container">
+      <span class="qs-announce-label">官方发布</span>
+      <div class="qs-announce-track">
+        <ul class="qs-announce-list" id="qsAnnounceList">
+          <li><span>11-19</span>「冬日暖影」专题上线，收录12部真实生活短片</li>
+          <li><span>11-16</span>新创作者「阿盏」入驻，首发Vlog记录小城慢生活</li>
+          <li><span>11-12</span>平台完成内容品质升级，高清画质全面覆盖</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <header class="qs-header">
+    <div class="qs-container qs-header-inner">
+      <a href="#" class="qs-logo">
+        <span class="qs-logo-mark">情</span>
+        <span>91情深叉喔<small>VLOG COLLECTION</small></span>
+      </a>
+      <nav class="qs-nav" id="qsNav">
+        <a href="#qsHome">首页</a>
+        <a href="#qsFocus">焦点视频</a>
+        <a href="#qsTopics">专题策划</a>
+        <a href="#qsCreators">创作者</a>
+        <a href="#qsReviews">用户口碑</a>
+        <a href="#qsUpdates">企业动态</a>
+        <a href="#qsContact">联系合作</a>
+      </nav>
+      <div class="qs-header-actions">
+        <div class="qs-search">
+          <svg class="qs-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+          <input type="text" id="qsSearchInput" placeholder="搜索视频、创作者..." aria-label="搜索视频或创作者">
+          <div class="qs-search-hint" id="qsSearchHint"></div>
+        </div>
+        <button class="qs-mobile-toggle" id="qsMobileToggle" aria-label="展开导航">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main>
+  <!-- 首屏 -->
+  <section class="qs-hero" id="qsHome">
+    <div class="qs-container">
+      <div class="qs-hero-grid">
+        <div class="qs-hero-text">
+          <div class="qs-hero-kicker">真实生活影像 · 品牌视频官网</div>
+          <h1>91情深叉喔vlog合集</h1>
+          <p class="qs-hero-intro">
+            作为一家持续运营的视频品牌官网，我们深耕真实生活影像领域，以「记录真实、传递温暖」为使命，汇聚企业与创作者的力量，构建多元包容的内容生态。平台专注原创Vlog与情感叙事，让每一段平凡日常都值得被看见，让每一次真诚分享都能找到共鸣。
+          </p>
+          <div class="qs-hero-actions">
+            <a href="#qsFocus" class="qs-btn qs-btn-primary">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              浏览焦点内容
+            </a>
+            <a href="#qsContact" class="qs-btn qs-btn-outline">投稿与合作</a>
+          </div>
+          <div class="qs-hero-stats">
+            <div>
+              <div class="qs-stat-num" data-count="12800">0</div>
+              <div class="qs-stat-label">原创影像作品</div>
+            </div>
+            <div>
+              <div class="qs-stat-num" data-count="620">0</div>
+              <div class="qs-stat-label">入驻创作者</div>
+            </div>
+            <div>
+              <div class="qs-stat-num" data-count="36">0</div>
+              <div class="qs-stat-label">万月活跃观众</div>
+            </div>
+          </div>
+        </div>
+        <div class="qs-hero-visual">
+          <div class="qs-hero-main-img">
+            <svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="91情深叉喔vlog合集品牌主视觉：晨光下的城市街角与记录者">
+              <defs>
+                <linearGradient id="qsHeroSky" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#e8b86d"/>
+                  <stop offset="55%" stop-color="#d97c7c"/>
+                  <stop offset="100%" stop-color="#8a3434"/>
+                </linearGradient>
+                <linearGradient id="qsHeroGround" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#4a3a34"/>
+                  <stop offset="100%" stop-color="#2b2320"/>
+                </linearGradient>
+              </defs>
+              <rect width="500" height="400" fill="url(#qsHeroSky)"/>
+              <circle cx="380" cy="90" r="48" fill="#f8e7c9" opacity="0.9"/>
+              <path d="M0 250 Q120 210 250 240 Q380 270 500 230 L500 400 L0 400Z" fill="url(#qsHeroGround)"/>
+              <rect x="60" y="150" width="70" height="120" fill="#5f4a42" opacity="0.85"/>
+              <rect x="150" y="120" width="60" height="150" fill="#6b5249" opacity="0.85"/>
+              <rect x="330" y="170" width="80" height="100" fill="#5f4a42" opacity="0.85"/>
+              <rect x="78" y="168" width="16" height="20" fill="#f3d9a4" opacity="0.8"/>
+              <rect x="108" y="168" width="16" height="20" fill="#f3d9a4" opacity="0.5"/>
+              <rect x="164" y="140" width="14" height="18" fill="#f3d9a4" opacity="0.7"/>
+              <rect x="192" y="140" width="14" height="18" fill="#f3d9a4" opacity="0.45"/>
+              <circle cx="255" cy="300" r="14" fill="#2b2320"/>
+              <rect x="247" y="314" width="16" height="52" rx="8" fill="#2b2320"/>
+              <rect x="238" y="330" width="34" height="10" rx="5" fill="#e8b86d" opacity="0.9"/>
+              <rect x="270" y="286" width="56" height="38" rx="6" fill="#2b2320" opacity="0.85"/>
+              <circle cx="298" cy="302" r="9" fill="none" stroke="#e8b86d" stroke-width="3"/>
+              <rect x="305" y="296" width="10" height="6" rx="2" fill="#e8b86d"/>
+            </svg>
+            <span class="qs-video-tag">● 官方精选 · 4K 高清</span>
+          </div>
+          <div class="qs-hero-float-card">
+            <div class="qs-avatar" style="background:#b84a4a;">晚</div>
+            <p><strong>晚风记事本</strong><span>本周更新 · 3 部新作</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 关键词介绍 -->
+      <div class="qs-intro-block">
+        <h2>关于「91情深叉喔vlog合集」</h2>
+        <p>
+          「91情深叉喔vlog合集」并非简单的影像堆叠，而是一套围绕真实生活展开的内容体系。品牌官方网站自创立之初就确立了“以人为核心”的创作方向，鼓励创作者用镜头记录日常里的细微波澜——一次久别重逢、一顿家常晚饭、一段深夜独白，都是我们珍视的素材。平台通过系统化的合集整理与专题策展，让分散的Vlog片段形成有温度的故事线，也让观众在浏览时获得连贯的陪伴感。
+        </p>
+        <p>
+          作为垂直领域内持续运营的视频社区，我们深知品质与口碑的重要性。所有合集内容均经过人工筛选与分类，涵盖城市探索、情感访谈、生活技巧、创作幕后等多个方向。原创与正版是平台的底线，高清画质与沉浸式观看体验是基础配置，而创作者与观众之间的真实互动，才是内容生态持续生长的动力。我们相信，好的Vlog不需要刻意制造戏剧性，它应该像朋友间的闲谈，自然、真诚、有力量。
+        </p>
+        <p>
+          在品牌故事之外，平台同样重视社会责任与用户至上的服务理念。我们为新人创作者提供从选题到剪辑的实用攻略，为成熟作者搭建与企业、品牌合作的桥梁，并通过定期举办的创意挑战与投票活动，让社区成员共同参与内容生态的建设。匠心与创新并行，多元与包容共融——这正是91情深叉喔vlog合集希望传递的价值观。无论你是记录者还是观看者，这里都有一席之地，等待你的故事被看见、被回应。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点视频 -->
+  <section class="qs-section" id="qsFocus">
+    <div class="qs-container">
+      <h2 class="qs-section-title">焦点视频</h2>
+      <p class="qs-section-sub">编辑团队本周精选，值得静下心来看的影像记录</p>
+      <div class="qs-focus-grid">
+        <article class="qs-video-card qs-focus-main">
+          <div class="qs-video-thumb">
+            <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="焦点视频封面：老巷口的黄昏重逢">
+              <defs>
+                <linearGradient id="qsFc1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#c97b5a"/>
+                  <stop offset="100%" stop-color="#6b3b3b"/>
+                </linearGradient>
+              </defs>
+              <rect width="640" height="380" fill="url(#qsFc1)"/>
+              <circle cx="520" cy="90" r="54" fill="#f3d9a4" opacity="0.75"/>
+              <path d="M0 280 Q160 240 320 270 Q480 300 640 250 L640 380 L0 380Z" fill="#3a2a26"/>
+              <rect x="80" y="180" width="90" height="120" fill="#4a3631"/>
+              <rect x="190" y="150" width="70" height="150" fill="#553e38"/>
+              <rect x="420" y="200" width="110" height="100" fill="#4a3631"/>
+              <rect x="96" y="198" width="18" height="24" fill="#f3d9a4" opacity="0.7"/>
+              <rect x="132" y="198" width="18" height="24" fill="#f3d9a4" opacity="0.4"/>
+              <rect x="204" y="168" width="14" height="20" fill="#f3d9a4" opacity="0.6"/>
+              <circle cx="300" cy="300" r="16" fill="#2b2320"/>
+              <rect x="290" y="316" width="20" height="46" rx="10" fill="#2b2320"/>
+              <circle cx="358" cy="304" r="14" fill="#2b2320"/>
+              <rect x="350" y="318" width="16" height="40" rx="8" fill="#2b2320"/>
+              <line x1="310" y1="334" x2="350" y2="330" stroke="#e8b86d" stroke-width="5" stroke-linecap="round"/>
+            </svg>
+            <div class="qs-play-icon"></div>
+            <span class="qs-thumb-tag">情感故事</span>
+          </div>
+          <div class="qs-video-info">
+            <h3 class="qs-video-title">《巷口》——五十年后，他们又在老地方见面了</h3>
+            <p class="qs-video-desc">一部长达18分钟的生活纪录片。镜头跟随两位老人重访儿时居住的老巷，在拆迁前的最后一个秋天，记录下属于一代人的记忆与絮语。没有旁白，只有真实的声音与漫长的对视。</p>
+            <div class="qs-video-meta">
+              <div class="qs-author-mini">
+                <span class="qs-avatar" style="background:#8a3434;">陈</span>
+                <span>陈屿的影像簿</span>
+              </div>
+              <div class="qs-video-stats">
+                <button class="qs-action-btn qs-like-btn" data-liked="false" aria-label="点赞">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-9.5-8.5C.5 9.5 2 6 5.5 6 8 6 9.5 8 12 10c2.5-2 4-4 6.5-4C22 6 23.5 9.5 21.5 12.5 19 16.5 12 21 12 21z"/></svg>
+                  <span class="qs-like-count">2.4k</span>
+                </button>
+                <span>·</span>
+                <span>18:42</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="qs-focus-side">
+          <article class="qs-video-card">
+            <div class="qs-video-thumb">
+              <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="焦点视频封面：清晨菜市场的烟火气">
+                <rect width="320" height="200" fill="#7a9e7e"/>
+                <circle cx="250" cy="50" r="30" fill="#f3d9a4" opacity="0.8"/>
+                <path d="M0 140 Q90 120 160 135 Q240 150 320 128 L320 200 L0 200Z" fill="#3f5a42"/>
+                <rect x="40" y="90" width="60" height="50" fill="#5a7a5e"/>
+                <rect x="120" y="80" width="50" height="60" fill="#4d6b51"/>
+                <rect x="200" y="100" width="70" height="40" fill="#5a7a5e"/>
+                <circle cx="70" cy="150" r="8" fill="#e8b86d"/>
+                <circle cx="100" cy="155" r="6" fill="#d97c7c"/>
+                <circle cx="130" cy="148" r="7" fill="#e8b86d"/>
+              </svg>
+              <div class="qs-play-icon"></div>
+              <span class="qs-thumb-tag">城市探索</span>
+            </div>
+            <div class="qs-video-info">
+              <h3 class="qs-video-title">六点半的菜市场，藏着城市最鲜活的呼吸</h3>
+              <div class="qs-video-meta">
+                <div class="qs-author-mini"><span class="qs-avatar" style="background:#7a9e7e;">小</span><span>小满逛城市</span></div>
+                <div class="qs-video-stats">1.8k</div>
+              </div>
+            </div>
+          </article>
+          <article class="qs-video-card">
+            <div class="qs-video-thumb">
+              <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="焦点视频封面：深夜书桌前的独白">
+                <rect width="320" height="200" fill="#3d3a52"/>
+                <circle cx="60" cy="50" r="22" fill="#f3d9a4" opacity="0.5"/>
+                <rect x="0" y="150" width="320" height="50" fill="#2a2838"/>
+                <rect x="90" y="90" width="140" height="60" rx="4" fill="#4a4668"/>
+                <rect x="120" y="104" width="80" height="8" rx="4" fill="#d97c7c"/>
+                <rect x="120" y="120" width="50" height="8" rx="4" fill="#e8b86d"/>
+                <circle cx="200" cy="70" r="16" fill="#e8b86d" opacity="0.6"/>
+              </svg>
+              <div class="qs-play-icon"></div>
+              <span class="qs-thumb-tag">情感故事</span>
+            </div>
+            <div class="qs-video-info">
+              <h3 class="qs-video-title">凌晨一点，我写下这封没有寄出的信</h3>
+              <div class="qs-video-meta">
+                <div class="qs-author-mini"><span class="qs-avatar" style="background:#3d3a52;">夜</span><span>夜航信</span></div>
+                <div class="qs-video-stats">3.1k</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门视频流 -->
+  <section class="qs-section" style="background: var(--qs-bg-warm);">
+    <div class="qs-container">
+      <h2 class="qs-section-title">热门内容流</h2>
+      <p class="qs-section-sub">社区正在观看的真实记录，来自不同创作者的生活切片</p>
+      <div class="qs-video-grid-3">
+        <article class="qs-video-card">
+          <div class="qs-video-thumb">
+            <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="视频封面：雨天玻璃窗与一杯热茶">
+              <rect width="320" height="180" fill="#6b8fa8"/>
+              <rect x="40" y="30" width="240" height="120" rx="8" fill="#8fb3c9" opacity="0.6"/>
+              <path d="M60 60 L100 60 M80 80 L140 80 M60 100 L120 100 M80 120 L160 120" stroke="#e8f0f5" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+              <circle cx="230" cy="110" r="24" fill="#f3d9a4"/>
+              <rect x="218" y="120" width="24" height="6" rx="3" fill="#d9b98a"/>
+            </svg>
+            <div class="qs-play-icon"></div>
+            <span class="qs-thumb-tag">治愈影像</span>
+          </div>
+          <div class="qs-video-info">
+            <h3 class="qs-video-title">雨天不出门，和一杯茶待一下午</h3>
+            <p class="qs-video-desc">记录一个没有计划的周末，窗外的雨声和翻书声交替出现。原来慢下来的时间，也有自己的节奏。</p>
+            <div class="qs-video-meta">
+              <div class="qs-author-mini"><span class="qs-avatar" style="background:#6b8fa8;">安</span><span>安然慢生活</span></div>
+              <div class="qs-video-stats"><button class="qs-action-btn qs-like-btn" data-liked="false" aria-label="点赞"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-9.5-8.5C.5 9.5 2 6 5.5 6 8 6 9.5 8 12 10c2.5-2 4-4 6.5-4C22 6 23.5 9.5 21.5 12.5 19 16.5 12 21 12 21z"/></svg><span class="qs-like-count">986</span></button></div>
+            </div>
+          </div>
+        </article>
+        <article class="qs-video-card">
+          <div class="qs-video-thumb">
+            <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="视频封面：手作陶艺的旋转拉坯过程">
+              <rect width="320" height="180" fill="#c9a17a"/>
+              <ellipse cx="160" cy="130" rx="80" ry="22" fill="#a87c52"/>
+              <ellipse cx="160" cy="120" rx="50" ry="14" fill="#b98e63"/>
+              <path d="M110 120 Q160 60 210 120" fill="none" stroke="#d9b98a" stroke-width="10" stroke-linecap="round"/>
+              <circle cx="160" cy="64" r="10" fill="#e8cfb0"/>
+            </svg>
+            <div class="qs-play-icon"></div>
+            <span class="qs-thumb-tag">手作DIY</span>
+          </div>
+          <div class="qs-video-info">
+            <h3 class="qs-video-title">第一次拉坯，失败了七次之后终于成了</h3>
+            <p class="qs-video-desc">从一团泥到一个歪歪扭扭的杯子，双手记住的不仅是技巧，还有愿意为一件事反复尝试的耐心。</p>
+            <div class="qs-video-meta">
+              <div class="qs-author-mini"><span class="qs-avatar" style="background:#c9a17a;">陶</span><span>陶子手作间</span></div>
+              <div class="qs-video-stats"><button class="qs-action-btn qs-like-btn" data-liked="false" aria-label="点赞"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-9.5-8.5C.5 9.5 2 6 5.5 6 8 6 9.5 8 12 10c2.5-2 4-4 6.5-4C22 6 23.5 9.5 21.5 12.5 19 16.5 12 21 12 21z"/></svg><span class="qs-like-count">1.5k</span></button></div>
+            </div>
+          </div>
+        </article>
+        <article class="qs-video-card">
+          <div class="qs-video-thumb">
+            <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="视频封面：深夜厨房里煮一碗面">
+              <rect width="320" height="180" fill="#4a3a3a"/>
+              <circle cx="260" cy="40" r="18" fill="#f3d9a4" opacity="0.6"/>
+              <rect x="60" y="120" width="200" height="14" rx="7" fill="#6b5249"/>
+              <ellipse cx="160" cy="116" rx="46" ry="12" fill="#8a6a52"/>
+              <path d="M120 116 Q160 84 200 116" fill="none" stroke="#e8cfb0" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="148" cy="106" r="4" fill="#d97c7c"/>
+              <circle cx="172" cy="110" r="3" fill="#e8b86d"/>
+            </svg>
+            <div class="qs-play-icon"></div>
+            <span class="qs-thumb-tag">美食烹饪</span>
+          </div>
+          <div class="qs-video-info">
+            <h3 class="qs-video-title">加班回家的深夜，给自己煮一碗葱油面</h3>
+            <p class="qs-video-desc">不需要复杂的食材，热油浇在葱花上的那一声响，就是一天里最踏实的安慰。附详细步骤与火候提示。</p>
+            <div class="qs-video-meta">
+              <div class="qs-author-mini"><span class="qs-avatar" style="background:#8a6a52;">碗</span><span>一碗人间</span></div>
+              <div class="qs-video-stats"><button class="qs-action-btn qs-like-btn" data-liked="false" aria-label="点赞"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-9.5-8.5C.5 9.5 2 6 5.5 6 8 6 9.5 8 12 10c2.5-2 4-4 6.5-4C22 6 23.5 9.5 21.5 12.5 19 16.5 12 21 12 21z"/></svg><span class="qs-like-count">2.1k</span></button></div>
+            </div>
+          </div>
+        </article>
+        <article class="qs-video-card">
+          <div class="qs-video-thumb">
+            <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="视频封面：山间徒步的小径与背包">
+              <rect width="320" height="180" fill="#8fb3a8"/>
+              <path d="M0 130 Q80 90 160 110 Q240 130 320 96 L320 180 L0 180Z" fill="#5a7a68"/>
+              <path d="M0 150 Q100 120 200 140 Q280 152 320 136 L320 180 L0 180Z" fill="#3f5a4a"/>
+              <circle cx="250" cy="44" r="20" fill="#f3d9a4" opacity="0.7"/>
+              <rect x="140" y="92" width="28" height="34" rx="6" fill="#4a3631"/>
+              <path d="M146 92 Q154 80 162 92" fill="none" stroke="#4a3631" stroke-width="3"/>
+            </svg>
+            <div class="qs-play-icon"></div>
+            <span class="qs-thumb-tag">户外活动</span>
+          </div>
+          <div class="qs-video-info">
+            <h3 class="qs-video-title">周末进山，走了十二公里只为了看一片云</h3>
+            <p class="qs-video-desc">没有信号的山路上，背包里装着水和面包。沿途记录了三种植被和一处断崖，最后的云海值得所有疲惫。</p>
+            <div class="qs-video-meta">
+              <div class="qs-author-mini"><span class="qs-avatar" style="background:#5a7a68;">野</span><span>野径记录</span></div>
+              <div class="qs-video-stats"><button class="qs-action-btn qs-like-btn" data-liked="false" aria-label="点赞"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-9.5-8.5C.5 9.5 2 6 5.5 6 8 6 9.5 8 12 10c2.5-2 4-4 6.5-4C22 6 23.5 9.5 21.5 12.5 19 16.5 12 21 12 21z"/></svg><span class="qs-like-count">1.2k</span></button></div>
+            </div>
+          </div>
+        </article>
+        <article class="qs-video-card">
+          <div class="qs-video-thumb">
+            <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="视频封面：旧书店里的午后阅读时光">
+              <rect width="320" height="180" fill="#d9c9a8"/>
+              <rect x="0" y="0" width="320" height="24" fill="#a88a5a"/>
+              <rect x="20" y="40" width="90" height="90" fill="#8a6a3a"/>
+              <rect x="120" y="30" width="80" height="100" fill="#9a7a4a"/>
+              <rect x="210" y="44" width="90" height="86" fill="#8a6a3a"/>
+              <path d="M40 60 L90 60 M40 76 L80 76 M40 92 L90 92 M140 50 L180 50 M140 66 L170 66 M140 82 L180 82" stroke="#e8dcc0" stroke-width="4" stroke-linecap="round"/>
+              <rect x="238" y="150" width="50" height="8" rx="4" fill="#5a4a3a"/>
+            </svg>
+            <div class="qs-play-icon"></div>
+            <span class="qs-thumb-tag">日常记录</span>
+          </div>
+          <div class="qs-video-info">
+            <h3 class="qs-video-title">在老书店待了整个下午，只翻了两页书</h3>
+            <p class="qs-video-desc">店主养了一只橘猫，阳光从高窗斜进来。有些时间就是要被“浪费”的，比如在一个旧书堆里发呆。</p>
+            <div class="qs-video-meta">
+              <div class="qs-author-mini"><span class="qs-avatar" style="background:#a88a5a;">书</span><span>书页之间</span></div>
+              <div class="qs-video-stats"><button class="qs-action-btn qs-like-btn" data-liked="false" aria-label="点赞"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-9.5-8.5C.5 9.5 2 6 5.5 6 8 6 9.5 8 12 10c2.5-2 4-4 6.5-4C22 6 23.5 9.5 21.5 12.5 19 16.5 12 21 12 21z"/></svg><span class="qs-like-count">874</span></button></div>
+            </div>
+          </div>
+        </article>
+        <article class="qs-video-card">
+          <div class="qs-video-thumb">
+            <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="视频封面：整理书桌与收纳小物的过程">
+              <rect width="320" height="180" fill="#e8dcc8"/>
+              <rect x="40" y="110" width="240" height="16" rx="4" fill="#b89a72"/>
+              <rect x="60" y="70" width="40" height="40" rx="4" fill="#8a6a4a"/>
+              <rect x="110" y="80" width="30" height="30" rx="4" fill="#a88a5a"/>
+              <rect x="150" y="64" width="44" height="46" rx="6" fill="#6b8fa8"/>
+              <rect x="210" y="74" width="50" height="36" rx="4" fill="#c9a17a"/>
+              <circle cx="260" cy="50" r="14" fill="#d97c7c" opacity="0.6"/>
+            </svg>
+            <div class="qs-play-icon"></div>
+            <span class="qs-thumb-tag">家居收纳</span>
+          </div>
+          <div class="qs-video-info">
+            <h3 class="qs-video-title">换季书桌大整理，扔掉了三袋“以后会用”的东西</h3>
+            <p class="qs-video-desc">按照使用频率重新分区，把桌面留给真正需要的东西。收纳不只是整理物品，也是梳理心情。</p>
+            <div class="qs-video-meta">
+              <div class="qs-author-mini"><span class="qs-avatar" style="background:#b89a72;">简</span><span>简一生活志</span></div>
+              <div class="qs-video-stats"><button class="qs-action-btn qs-like-btn" data-liked="false" aria-label="点赞"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-9.5-8.5C.5 9.5 2 6 5.5 6 8 6 9.5 8 12 10c2.5-2 4-4 6.5-4C22 6 23.5 9.5 21.5 12.5 19 16.5 12 21 12 21z"/></svg><span class="qs-like-count">1.6k</span></button></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题策划 -->
+  <section class="qs-section" id="qsTopics">
+    <div class="qs-container">
+      <h2 class="qs-section-title">专题策划</h2>
+      <p class="qs-section-sub">围绕特定主题的系列合集，用多部短片拼出更完整的故事</p>
+      <div class="qs-topic-grid">
+        <article class="qs-topic-card">
+          <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="400" height="260" fill="#8a5a4a"/>
+            <circle cx="320" cy="60" r="40" fill="#f3d9a4" opacity="0.6"/>
+            <path d="M0 190 Q100 160 200 180 Q300 200 400 170 L400 260 L0 260Z" fill="#4a3028"/>
+          </svg>
+          <h3 class="qs-topic-title">冬日暖影计划</h3>
+          <p class="qs-topic-desc">征集发生在冬天的温暖瞬间，12部入选短片已上线。</p>
+          <span class="qs-topic-status">● 更新至第 12 集</span>
+        </article>
+        <article class="qs-topic-card">
+          <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="400" height="260" fill="#4a5a7a"/>
+            <circle cx="90" cy="70" r="34" fill="#c9d9e8" opacity="0.5"/>
+            <path d="M0 160 Q120 130 220 170 Q320 210 400 180 L400 260 L0 260Z" fill="#2a3448"/>
+          </svg>
+          <h3 class="qs-topic-title">小城叙事</h3>
+          <p class="qs-topic-desc">把镜头交给非一线城市，记录那里更慢、更扎实的日常。</p>
+          <span class="qs-topic-status">● 每月更新</span>
+        </article>
+        <article class="qs-topic-card">
+          <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="400" height="260" fill="#6b8a5a"/>
+            <circle cx="280" cy="80" r="46" fill="#e8e0b0" opacity="0.4"/>
+            <path d="M0 180 Q140 150 260 180 Q340 200 400 176 L400 260 L0 260Z" fill="#3a4a2a"/>
+          </svg>
+          <h3 class="qs-topic-title">双手的温度</h3>
+          <p class="qs-topic-desc">手作、烹饪与修补，关于用手创造的真实记录。</p>
+          <span class="qs-topic-status">● 持续征集中</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="qs-section" style="background: var(--qs-bg-warm);" id="qsCreators">
+    <div class="qs-container">
+      <h2 class="qs-section-title">创作者矩阵</h2>
+      <p class="qs-section-sub">平台持续扶持的原创作者，他们的镜头构成了社区的面貌</p>
+      <div class="qs-creator-grid">
+        <article class="qs-creator-card">
+          <div class="qs-creator-avatar" style="background:linear-gradient(135deg,#b84a4a,#d97c7c);">陈</div>
+          <h3 class="qs-creator-name">陈屿的影像簿</h3>
+          <span class="qs-creator-field">情感故事</span>
+          <p class="qs-creator-bio">擅长用长镜头记录人物关系，作品多次入选平台年度精选。</p>
+          <div class="qs-creator-stats">
+            <div><strong>86</strong>作品</div>
+            <div><strong>4.2万</strong>关注</div>
+          </div>
+        </article>
+        <article class="qs-creator-card">
+          <div class="qs-creator-avatar" style="background:linear-gradient(135deg,#6b8fa8,#9ec1d6);">安</div>
+          <h3 class="qs-creator-name">安然慢生活</h3>
+          <span class="qs-creator-field">治愈影像</span>
+          <p class="qs-creator-bio">把慢节奏过成日常，擅长美食与家居主题的沉浸式记录。</p>
+          <div class="qs-creator-stats">
+            <div><strong>142</strong>作品</div>
+            <div><strong>6.8万</strong>关注</div>
+          </div>
+        </article>
+        <article class="qs-creator-card">
+          <div class="qs-creator-avatar" style="background:linear-gradient(135deg,#8a6a4a,#c9a17a);">碗</div>
+          <h3 class="qs-creator-name">一碗人间</h3>
+          <span class="qs-creator-field">美食烹饪</span>
+          <p class="qs-creator-bio">深夜厨房的常驻记录者，用最简单的一餐讲述生活本身。</p>
+          <div class="qs-creator-stats">
+            <div><strong>208</strong>作品</div>
+            <div><strong>9.1万</strong>关注</div>
+          </div>
+        </article>
+        <article class="qs-creator-card">
+          <div class="qs-creator-avatar" style="background:linear-gradient(135deg,#5a7a68,#8fb3a8);">野</div>
+          <h3 class="qs-creator-name">野径记录</h3>
+          <span class="qs-creator-field">户外活动</span>
+          <p class="qs-creator-bio">周末进山，工作日剪片。关心自然，也关心人与自然的关系。</p>
+          <div class="qs-creator-stats">
+            <div><strong>64</strong>作品</div>
+            <div><strong>3.5万</strong>关注</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 故事区 -->
+  <section class="qs-section">
+    <div class="qs-container">
+      <h2 class="qs-section-title">幕后与随笔</h2>
+      <p class="qs-section-sub">创作之外的文字记录，让影像背后的故事被更多人了解</p>
+      <div class="qs-story-grid">
+        <article class="qs-story-card">
+          <div class="qs-story-img">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="文章配图：剪辑软件的时间轴与一杯凉掉的咖啡">
+              <rect width="200" height="200" fill="#4a4668"/>
+              <rect x="30" y="40" width="140" height="90" rx="6" fill="#5f5a80"/>
+              <rect x="42" y="56" width="80" height="8" rx="4" fill="#d97c7c"/>
+              <rect x="42" y="72" width="110" height="8" rx="4" fill="#e8b86d"/>
+              <rect x="42" y="88" width="60" height="8" rx="4" fill="#9ec1d6"/>
+              <rect x="42" y="104" width="96" height="8" rx="4" fill="#8fb3a8"/>
+              <ellipse cx="150" cy="160" rx="20" ry="8" fill="#3a3652"/>
+              <rect x="136" y="150" width="28" height="12" rx="4" fill="#8a6a4a"/>
+            </svg>
+          </div>
+          <div class="qs-story-body">
+            <h3>剪到第三版，我才明白“慢”是对的</h3>
+            <p>一部15分钟的片子，素材有4个小时。取舍的过程很痛苦，但删掉旁白之后，画面自己会说话。</p>
+            <div class="qs-story-meta"><span>陈屿</span><span>11-14</span></div>
+          </div>
+        </article>
+        <article class="qs-story-card">
+          <div class="qs-story-img">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="文章配图：傍晚窗台上的绿植与笔记本">
+              <rect width="200" height="200" fill="#e8dcc8"/>
+              <rect x="0" y="140" width="200" height="60" fill="#c9b490"/>
+              <rect x="40" y="60" width="70" height="80" rx="4" fill="#f5efe2"/>
+              <path d="M55 76 L95 76 M55 90 L85 90 M55 104 L95 104" stroke="#b89a72" stroke-width="4" stroke-linecap="round"/>
+              <rect x="130" y="100" width="30" height="30" rx="4" fill="#8a6a4a"/>
+              <path d="M140 100 Q145 80 158 100" fill="none" stroke="#5a7a4a" stroke-width="4"/>
+              <circle cx="168" cy="50" r="16" fill="#d97c7c" opacity="0.5"/>
+            </svg>
+          </div>
+          <div class="qs-story-body">
+            <h3>拍Vlog三年，我学会了不拍什么</h3>
+            <p>以前总想把每一秒都留在镜头里，现在更愿意放下相机，先好好吃一顿饭。记录是为了生活，不是反过来。</p>
+            <div class="qs-story-meta"><span>安然慢生活</span><span>11-10</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据榜单 -->
+  <section class="qs-section" style="background: var(--qs-bg-warm);">
+    <div class="qs-container">
+      <h2 class="qs-section-title">社区热度榜</h2>
+      <p class="qs-section-sub">本周被观看与讨论最多的内容，数据持续更新中</p>
+      <div class="qs-rank-list">
+        <div class="qs-rank-item"><span class="qs-rank-num">1</span><span class="qs-rank-title">《巷口》——五十年后的重逢</span><span class="qs-rank-heat">12.4万热度</span></div>
+        <div class="qs-rank-item"><span class="qs-rank-num">2</span><span class="qs-rank-title">加班回家的深夜葱油面</span><span class="qs-rank-heat">9.8万热度</span></div>
+        <div class="qs-rank-item"><span class="qs-rank-num">3</span><span class="qs-rank-title">凌晨一点，没有寄出的信</span><span class="qs-rank-heat">8.6万热度</span></div>
+        <div class="qs-rank-item"><span class="qs-rank-num">4</span><span class="qs-rank-title">六点半的菜市场</span><span class="qs-rank-heat">7.2万热度</span></div>
+        <div class="qs-rank-item"><span class="qs-rank-num">5</span><span class="qs-rank-title">第一次拉坯成功记录</span><span class="qs-rank-heat">6.5万热度</span></div>
+        <div class="qs-rank-item"><span class="qs-rank-num">6</span><span class="qs-rank-title">周末进山看云</span><span class="qs-rank-heat">5.9万热度</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="qs-section" id="qsReviews">
+    <div class="qs-container">
+      <h2 class="qs-section-title">用户口碑</h2>
+      <p class="qs-section-sub">来自观众的真实的感受，是平台持续运营的动力</p>
+      <div class="qs-review-grid">
+        <article class="qs-review-card">
+          <p class="qs-review-text">看《巷口》的时候哭了。我奶奶也住过那样的老房子，片子里的光线、声音都太熟悉了。感谢创作者留下这些。</p>
+          <div class="qs-review-author">
+            <span class="qs-avatar" style="background:#b84a4a;">林</span>
+            <div><strong>林小满</strong><span>关注平台 2 年</span></div>
+          </div>
+        </article>
+        <article class="qs-review-card">
+          <p class="qs-review-text">内容质量很稳定，没有那种为了流量硬凑的标题。首页推荐经常能刷到让我安静下来的片子，很难得。</p>
+          <div class="qs-review-author">
+            <span class="qs-avatar" style="background:#6b8fa8;">周</span>
+            <div><strong>周牧之</strong><span>影像爱好者</span></div>
+          </div>
+        </article>
+        <article class="qs-review-card">
+          <p class="qs-review-text">作为创作者，最感动的是收到长评论。平台没有把互动简化成点赞，很多人会认真写几行字，这种氛围很少见。</p>
+          <div class="qs-review-author">
+            <span class="qs-avatar" style="background:#c9a17a;">陶</span>
+            <div><strong>陶子手作间</strong><span>入驻创作者</span></div>
+          </div>
+        </article>
+        <article class="qs-review-card">
+          <p class="qs-review-text">专题策划做得用心，“小城叙事”让我重新认识了自己长大的地方。希望以后多一些地域主题的合集。</p>
+          <div class="qs-review-author">
+            <span class="qs-avatar" style="background:#5a7a68;">许</span>
+            <div><strong>许南</strong><span>社区活跃用户</span></div>
+          </div>
+        </article>
+        <article class="qs-review-card">
+          <p class="qs-review-text">画质和播放体验不错，搜索也能比较快找到想看的合集。如果能按作者建合集就更好了。</p>
+          <div class="qs-review-author">
+            <span class="qs-avatar" style="background:#8a6a4a;">李</span>
+            <div><strong>李之遥</strong><span>普通观众</span></div>
+          </div>
+        </article>
+        <article class="qs-review-card">
+          <p class="qs-review-text">投稿流程清晰，反馈也快。第一次投的片子收到了编辑的修改建议，对我帮助很大。</p>
+          <div class="qs-review-author">
+            <span class="qs-avatar" style="background:#4a5a7a;">郑</span>
+            <div><strong>郑一舟</strong><span>新晋创作者</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 -->
+  <section class="qs-section" style="background: var(--qs-bg-warm);" id="qsUpdates">
+    <div class="qs-container">
+      <h2 class="qs-section-title">企业动态</h2>
+      <p class="qs-section-sub">平台运营进展、功能更新与内容生态相关公告</p>
+      <div class="qs-updates">
+        <div class="qs-update-row">
+          <div class="qs-update-date"><strong>11-19</strong><span>2026</span></div>
+          <div class="qs-update-body">
+            <h3>「冬日暖影」专题正式上线</h3>
+            <p>首批收录12部原创短片，涵盖城市、家庭、自然三个方向，专题页已同步更新。</p>
+          </div>
+        </div>
+        <div class="qs-update-row">
+          <div class="qs-update-date"><strong>11-12</strong><span>2026</span></div>
+          <div class="qs-update-body">
+            <h3>高清画质体系完成升级</h3>
+            <p>平台内容逐步覆盖高清源，播放器适配更多终端，移动端观看体验同步优化。</p>
+          </div>
+        </div>
+        <div class="qs-update-row">
+          <div class="qs-update-date"><strong>11-05</strong><span>2026</span></div>
+          <div class="qs-update-body">
+            <h3>创作者扶持计划第二期开放报名</h3>
+            <p>面向新入驻作者，提供选题指导与流量支持，报名通道持续开放至月末。</p>
+          </div>
+        </div>
+        <div class="qs-update-row">
+          <div class="qs-update-date"><strong>10-28</strong><span>2026</span></div>
+          <div class="qs-update-body">
+            <h3>社区创意挑战赛结果公布</h3>
+            <p>本期挑战主题为「一日之始」，共收到投稿217部，最终选出10部作品进入专题合集。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="qs-section">
+    <div class="qs-container">
+      <h2 class="qs-section-title" style="text-align:center;">常见问题</h2>
+      <p class="qs-section-sub" style="text-align:center;">关于平台、投稿与内容使用，你可能想了解的事</p>
+      <div class="qs-faq-wrap">
+        <details class="qs-faq-item">
+          <summary>如何向「91情深叉喔vlog合集」投稿？</summary>
+          <p>点击页面底部的“投稿与合作”入口，填写作品信息与联系方式。编辑团队会在5个工作日内回复，通过审核的作品将进入官方合集展映。</p>
+        </details>
+        <details class="qs-faq-item">
+          <summary>平台对视频画质有要求吗？</summary>
+          <p>推荐提交1080P及以上分辨率、16:9画幅的成片。我们鼓励原创拍摄，同时接受经过授权的正版素材二次创作，请在投稿时注明素材来源。</p>
+        </details>
+        <details class="qs-faq-item">
+          <summary>合集内容会持续更新吗？</summary>
+          <p>是的。平台以专题合集的方式组织内容，每个合集都有明确的更新节奏。你可以在专题页看到更新状态，也可通过订阅功能获取更新提醒。</p>
+        </details>
+        <details class="qs-faq-item">
+          <summary>如何成为受邀创作者？</summary>
+          <p>持续发布优质原创内容并保持活跃，系统会综合评估内容品质与社区互动情况。我们也会定期从专题投稿中邀请表现突出的作者入驻。</p>
+        </details>
+        <details class="qs-faq-item">
+          <summary>平台是否承接品牌合作？</summary>
+          <p>我们与调性相符的品牌保持长期合作，合作内容会明确标注。如有合作意向，请通过联系页面的商务邮箱与我们沟通具体需求。</p>
+        </details>
+        <details class="qs-faq-item">
+          <summary>内容被搬运了怎么办？</summary>
+          <p>请在联系页面提交侵权说明与原创证明，平台会在核实后协助处理。我们始终尊重原创，维护创作者与正版内容的合法权益。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 / 投稿 -->
+  <section class="qs-section" id="qsContact">
+    <div class="qs-container">
+      <div class="qs-contact-band">
+        <div>
+          <h2>让你的故事，成为合集的一部分</h2>
+          <p>无论你是长期记录的创作者，还是刚刚拿起手机的新人，91情深叉喔vlog合集都欢迎你的作品。我们提供选题攻略、剪辑建议与展映机会，与每一位认真生活的人共同成长。</p>
+        </div>
+        <div class="qs-contact-actions">
+          <button class="qs-btn-light" id="qsOpenSubmit">投稿入口</button>
+          <button class="qs-btn-line" id="qsOpenShare">分享这个页面</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 页脚 -->
+<footer class="qs-footer">
+  <div class="qs-container">
+    <div class="qs-footer-grid">
+      <div class="qs-footer-brand">
+        <a href="#" class="qs-logo">
+          <span class="qs-logo-mark">情</span>
+          <span>91情深叉喔<small>VLOG COLLECTION</small></span>
+        </a>
+        <p>91情深叉喔vlog合集官方网站，专注真实生活影像的品牌视频社区。我们持续运营、深耕内容品质，以原创与正版为底线，为用户提供值得信赖的观看与创作环境。</p>
+      </div>
+      <div>
+        <h4>探索内容</h4>
+        <ul>
+          <li><a href="#qsFocus">焦点视频</a></li>
+          <li><a href="#qsTopics">专题策划</a></li>
+          <li><a href="#qsCreators">创作者矩阵</a></li>
+          <li><a href="#qsReviews">用户口碑</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于平台</h4>
+        <ul>
+          <li><a href="#qsHome">品牌故事</a></li>
+          <li><a href="#qsUpdates">企业动态</a></li>
+          <li><a href="#qsContact">投稿与合作</a></li>
+          <li><a href="#qsHome">内容生态</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系我们</h4>
+        <ul>
+          <li><a href="#qsContact">商务合作：bd@qingshen-vlog.cn</a></li>
+          <li><a href="#qsContact">内容投稿：submit@qingshen-vlog.cn</a></li>
+          <li><a href="#qsContact">用户反馈：support@qingshen-vlog.cn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="qs-footer-bottom">
+      <span>© 2026 91情深叉喔vlog合集 官方网站 · 版权所有 · 持续运营中</span>
+      <span>沪ICP备20260817号-3 · 品牌视频社区</span>
+    </div>
+  </div>
+</footer>
+
+<!-- 通用弹窗：投稿 -->
+<div class="qs-modal-mask" id="qsSubmitModal" role="dialog" aria-modal="true" aria-label="投稿入口">
+  <div class="qs-modal">
+    <button class="qs-modal-close" data-close="qsSubmitModal" aria-label="关闭">✕</button>
+    <h3>投稿入口</h3>
+    <p>填写基本信息，编辑团队会尽快与你联系。请确保作品为原创或已获授权。</p>
+    <form class="qs-modal-form" id="qsSubmitForm">
+      <input type="text" name="name" placeholder="你的称呼 / 创作者昵称" required>
+      <input type="email" name="email" placeholder="联系邮箱" required>
+      <textarea name="desc" placeholder="作品简介或创作方向（例如：城市探索、情感故事）"></textarea>
+      <button type="submit" class="qs-btn qs-btn-primary" style="justify-content:center;">提交投稿信息</button>
+    </form>
+  </div>
+</div>
+
+<!-- 通用弹窗：分享 -->
+<div class="qs-modal-mask" id="qsShareModal" role="dialog" aria-modal="true" aria-label="分享页面">
+  <div class="qs-modal">
+    <button class="qs-modal-close" data-close="qsShareModal" aria-label="关闭">✕</button>
+    <h3>分享这个页面</h3>
+    <p>把「91情深叉喔vlog合集」官网分享给更多喜欢真实影像的朋友。</p>
+    <div class="qs-share-row">
+      <button class="qs-share-btn" data-share="wechat">微信</button>
+      <button class="qs-share-btn" data-share="weibo">微博</button>
+      <button class="qs-share-btn" data-share="qq">QQ</button>
+      <button class="qs-share-btn" data-share="copy">复制链接</button>
+    </div>
+  </div>
+</div>
+
+<div class="qs-toast" id="qsToast"></div>
+<button class="qs-backtop" id="qsBacktop" aria-label="回到顶部">↑</button>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ===== Toast ===== */
+  var toastEl = document.getElementById('qsToast');
+  var toastTimer = null;
+  function showToast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      toastEl.classList.remove('is-show');
+    }, 2200);
+  }
+
+  /* ===== 公告轮播 ===== */
+  var announceList = document.getElementById('qsAnnounceList');
+  if (announceList) {
+    var announceItems = announceList.children;
+    var announceIdx = 0;
+    var announceHeight = 44;
+    setInterval(function () {
+      if (announceItems.length <= 1) return;
+      announceIdx = (announceIdx + 1) % announceItems.length;
+      announceList.style.transform = 'translateY(-' + (announceIdx * announceHeight) + 'px)';
+    }, 4000);
+  }
+
+  /* ===== 数字滚动 ===== */
+  var statNums = document.querySelectorAll('[data-count]');
+  var counted = false;
+  function runCount() {
+    if (counted) return;
+    var trigger = document.querySelector('.qs-hero-stats');
+    if (!trigger) return;
+    var rect = trigger.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 60) {
+      counted = true;
+      statNums.forEach(function (el) {
+        var target = parseInt(el.getAttribute('data-count'), 10);
+        var duration = 1200;
+        var start = 0;
+        var startTime = null;
+        function step(timestamp) {
+          if (!startTime) startTime = timestamp;
+          var progress = Math.min((timestamp - startTime) / duration, 1);
+          var eased = 1 - Math.pow(1 - progress, 3);
+          var current = Math.floor(eased * target);
+          if (target >= 10000) {
+            el.textContent = (current / 10000).toFixed(1).replace(/\.0$/, '') + '万';
+          } else {
+            el.textContent = current;
+          }
+          if (progress < 1) requestAnimationFrame(step);
+          else {
+            if (target >= 10000) {
+              el.textContent = (target / 10000).toFixed(1).replace(/\.0$/, '') + '万';
+            } else {
+              el.textContent = target;
+            }
+          }
+        }
+        requestAnimationFrame(step);
+      });
+    }
+  }
+  window.addEventListener('scroll', runCount, { passive: true });
+  runCount();
+
+  /* ===== 移动端导航 ===== */
+  var nav = document.getElementById('qsNav');
+  var mobileToggle = document.getElementById('qsMobileToggle');
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', function () {
+      nav.classList.toggle('is-open');
+    });
+    nav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        nav.classList.remove('is-open');
+      });
+    });
+  }
+
+  /* ===== 搜索提示 ===== */
+  var searchInput = document.getElementById('qsSearchInput');
+  var searchHint = document.getElementById('qsSearchHint');
+  if (searchInput && searchHint) {
+    searchInput.addEventListener('input', function () {
+      var val = searchInput.value.trim();
+      if (!val) {
+        searchHint.classList.remove('is-visible');
+        return;
+      }
+      var pool = ['情感故事', '城市探索', '治愈影像', '美食烹饪', '手作DIY', '户外活动', '日常记录', '收纳整理'];
+      var matched = pool.filter(function (item) { return item.indexOf(val) !== -1; });
+      if (matched.length) {
+        searchHint.innerHTML = '相关分类：<strong>' + matched.join('、') + '</strong> — 按回车浏览合集';
+      } else {
+        searchHint.innerHTML = '未找到与「<strong>' + val.replace(/</g, '&lt;') + '</strong>」完全匹配的标签，试试“情感”或“城市”';
+      }
+      searchHint.classList.add('is-visible');
+    });
+    searchInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        var val = searchInput.value.trim();
+        if (val) {
+          showToast('已为你筛选与「' + val + '」相关的内容');
+          searchHint.classList.remove('is-visible');
+          searchInput.blur();
+        }
+      }
+    });
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.qs-search')) {
+        searchHint.classList.remove('is-visible');
+      }
+    });
+  }
+
+  /* ===== 点赞 ===== */
+  document.querySelectorAll('.qs-like-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var countEl = btn.querySelector('.qs-like-count');
+      var liked = btn.getAttribute('data-liked') === 'true';
+      var current = countEl.textContent;
+      var num = 0;
+      if (/k$/.test(current)) {
+        num = parseFloat(current) * 1000;
+      } else {
+        num = parseInt(current, 10) || 0;
+      }
+      if (liked) {
+        num = Math.max(0, num - 1);
+        btn.classList.remove('is-liked');
+        btn.setAttribute('data-liked', 'false');
+      } else {
+        num = num + 1;
+        btn.classList.add('is-liked');
+        btn.setAttribute('data-liked', 'true');
+      }
+      if (num >= 1000) {
+        countEl.textContent = (num / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+      } else {
+        countEl.textContent = num;
+      }
+    });
+  });
+
+  /* ===== 回到顶部 ===== */
+  var backtop = document.getElementById('qsBacktop');
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 500) {
+      backtop.classList.add('is-show');
+    } else {
+      backtop.classList.remove('is-show');
+    }
+  }, { passive: true });
+  backtop.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  /* ===== 弹窗通用 ===== */
+  function openModal(id) {
+    var modal = document.getElementById(id);
+    if (modal) {
+      modal.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+  function closeModal(id) {
+    var modal = document.getElementById(id);
+    if (modal) {
+      modal.classList.remove('is-open');
+      document.body.style.overflow = '';
+    }
+  }
+  document.querySelectorAll('[data-close]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      closeModal(btn.getAttribute('data-close'));
+    });
+  });
+  document.querySelectorAll('.qs-modal-mask').forEach(function (mask) {
+    mask.addEventListener('click', function (e) {
+      if (e.target === mask) {
+        mask.classList.remove('is-open');
+        document.body.style.overflow = '';
+      }
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.qs-modal-mask.is-open').forEach(function (m) {
+        m.classList.remove('is-open');
+      });
+      document.body.style.overflow = '';
+    }
+  });
+
+  /* ===== 投稿弹窗 ===== */
+  var openSubmit = document.getElementById('qsOpenSubmit');
+  if (openSubmit) {
+    openSubmit.addEventListener('click', function () {
+      openModal('qsSubmitModal');
+    });
+  }
+  var submitForm = document.getElementById('qsSubmitForm');
+  if (submitForm) {
+    submitForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      closeModal('qsSubmitModal');
+      showToast('已收到你的投稿信息，编辑团队会尽快联系你');
+      submitForm.reset();
+    });
+  }
+
+  /* ===== 分享弹窗 ===== */
+  var openShare = document.getElementById('qsOpenShare');
+  if (openShare) {
+    openShare.addEventListener('click', function () {
+      openModal('qsShareModal');
+    });
+  }
+  document.querySelectorAll('.qs-share-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var type = btn.getAttribute('data-share');
+      if (type === 'copy') {
+        var fakeLink = 'https://qingshen-vlog.cn/collection';
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(fakeLink).then(function () {
+            showToast('链接已复制到剪贴板');
+          }).catch(function () {
+            showToast('链接已准备好，请手动复制');
+          });
+        } else {
+          showToast('链接已准备好，请手动复制');
+        }
+      } else {
+        var names = { wechat: '微信', weibo: '微博', qq: 'QQ' };
+        showToast('已生成' + names[type] + '分享卡片');
+      }
+      closeModal('qsShareModal');
+    });
+  });
+})();
+</script>
+</body>
+                   </html>
